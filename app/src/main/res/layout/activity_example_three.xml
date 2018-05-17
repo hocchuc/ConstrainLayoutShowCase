@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
@@ -18,26 +18,28 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
         android:text="Button 2"
         app:layout_constraintEnd_toStartOf="@+id/btn3"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
         app:layout_constraintStart_toEndOf="@+id/btn1"
         app:layout_constraintTop_toTopOf="@+id/btn1" />
 
     <Button
         android:id="@+id/btn3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Button 3"
+        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn2"
