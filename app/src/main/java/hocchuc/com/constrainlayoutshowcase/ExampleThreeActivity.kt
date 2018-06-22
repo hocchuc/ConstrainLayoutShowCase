@@ -8,5 +8,7 @@ class ExampleThreeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_example_three)
+        setTitle("Oh! Bi-direction chain")
+
     }
 }

@@ -94,11 +94,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
-        android:text="Button"
+        android:text="Example 5"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="116dp" />
 </android.support.constraint.ConstraintLayout>

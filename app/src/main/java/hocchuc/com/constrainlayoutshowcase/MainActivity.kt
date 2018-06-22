@@ -16,15 +16,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setUpView() {
-        btn1.setOnClickListener({
+        btn1.setOnClickListener {
             startActivity<ExampleOneActivity>()
-        })
-        btn2.setOnClickListener({
+        }
+        btn2.setOnClickListener {
             startActivity<ExampleTwoActivity>()
 
-        })
-        btn3.setOnClickListener({
+        }
+        btn3.setOnClickListener {
             startActivity<ExampleThreeActivity>()
-        })
+        }
+        btn4.setOnClickListener{
+            startActivity<ExampleFourActivity>()
+        }
+        btn5.setOnClickListener{
+            startActivity<ExampleFiveActivity>()
+        }
     }
 }

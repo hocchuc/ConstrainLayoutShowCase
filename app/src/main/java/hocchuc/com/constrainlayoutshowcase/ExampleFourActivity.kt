@@ -8,5 +8,6 @@ class ExampleFourActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_example_four)
+        setTitle("Percent! Percent Everywhere !")
     }
 }

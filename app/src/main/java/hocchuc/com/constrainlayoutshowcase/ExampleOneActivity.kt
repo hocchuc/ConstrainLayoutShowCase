@@ -8,5 +8,6 @@ class ExampleOneActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_example_one)
+        setTitle("Why ConstraintLayout ?")
     }
 }
